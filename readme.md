@@ -19,9 +19,8 @@ Suppose we have five grades:
 20% of the students have scored A. We want to draw an arc, that represents those 20% students out of the whole class.
 
 First we need to convert this number into a value of this arc. We do that by calculating:
-$$
-arc = \frac{20}{100}\times360 =72^o
-$$
+
+![arc_equation.png](arc_equation.png "arc_equation.png")
 
 
 Now we write a function to calculate this number for us:
@@ -92,7 +91,7 @@ startAngle+= getAngleLength(gradeC);
 
 
 
-The 4^th^ arc :
+The 4th arc :
 
 ```java
 //Draw Arc for Grade D
@@ -105,7 +104,7 @@ startAngle+= getAngleLength(gradeD);
 
 ![[pie4.jpg]](pie4.jpg "pie4.jpg")
 
-and finally the 5^th^ and last pie:
+and finally the 5th and last pie:
 
 ```java
 //Draw Arc for Grade F
